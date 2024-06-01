@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo Responsivo</title>
+	<!-- Definición del estilo para ajuste de vídeo -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .video-container {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <video controls>
+            <source src="VID_20240518_200128_yecla_se_corona.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de vídeo.
+        </video>
+    </div>
+</body>
+</html>
