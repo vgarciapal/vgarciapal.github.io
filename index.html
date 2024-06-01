@@ -61,27 +61,36 @@
     <h3>Tarea 1.4 Funcionalidades al vídeo.</h3>
     <div class="text-black">
         Fichero con vídeo incrustado.
-        Controles utilizados:
-		.
+        Funcionalidades utilizadas:
     </div>
-<div class="section">
-        <div class="section-title">1. Controles utilizados:</div>
+	<div class="section">
+        <div class="section-title">1. Controles utilizados en el tag de vídeo:</div>
         <div class="section-content">
-            a. sss<br>
-            b. sss
+            a. controls<br>
+            b. loop<br>
+            c. muted<br>
+            e. poster<br> 
+            d. preload
         </div>
     </div>
     <div class="section">
-        <div class="section-title">2. Portal utilizado:</div>
+        <div class="section-title">2. Tipos de vídeos soportados:</div>
         <div class="section-content">
-            (Descripción del portal utilizado)
+            a. muted<br>
+            c. muted
         </div>
     </div>
 
     <div class="video-container">
-        <video controls>
+        <video
+		controls
+		loop
+		muted
+		preload="auto" 
+		poster="240519_M1-306_PRA01_ejercicio_01_poster.jpg">>
             <source src="VID_20240518_200128_yecla_se_corona.mp4" type="video/mp4">
-            Tu navegador no soporta el elemento de vídeo.
+		<!-- Se pueden agregar más <source> tags para otros formatos -->
+            Este navegador no soporta el elemento de vídeo.
         </video>
     </div>
 
