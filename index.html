@@ -76,8 +76,9 @@
     <div class="section">
         <div class="section-title">2. Tipos de vídeos soportados:</div>
         <div class="section-content">
-            a. muted<br>
-            c. muted
+            a. T1-1_clip01.MP4 	--> MP4 (H.264 + AAC) <br>
+            B. T1-1_clip02.WEBM --> WebM (VP9 + Opus)<br>
+            c. T1-1_clip03.OGV	--> Ogg (Theora + Vorbis)
         </div>
     </div>
 
@@ -88,8 +89,11 @@
 		muted
 		preload="auto" 
 		poster="240519_M1-306_PRA01_ejercicio_01_poster.jpg">>
-            <source src="VID_20240518_200128_yecla_se_corona.mp4" type="video/mp4">
+            	<source src="T1-1_clip01.mp4" type="video/mp4">
+            	<source src="T1-1_clip02.webm" type="video/webm">
+            	<source src="T1-1_clip03.ogv" type="video/ogg">
 		<!-- Se pueden agregar más <source> tags para otros formatos -->
+
             Este navegador no soporta el elemento de vídeo.
         </video>
     </div>
